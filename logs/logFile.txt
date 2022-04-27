@@ -1,0 +1,168 @@
+2022-04-27 19:37:08 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-27 19:38:01 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-27 19:44:12 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-27 19:48:31 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-27 19:50:15 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-27 19:52:06 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-27 19:52:55 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-27 19:53:27 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-27 19:53:47 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-27 19:56:30 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-27 20:00:07 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-27 20:00:27 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-27 21:17:23 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-27 21:18:11 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-27 21:21:12 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-27 21:21:30 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-27 21:24:37 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-27 21:26:14 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-27 21:31:41 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-27 21:33:16 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-27 22:44:33 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-27 22:58:57 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-27 22:59:27 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-27 23:00:10 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-27 23:03:24 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-27 23:53:13 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-28 00:02:42 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-28 00:07:07 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-28 00:07:48 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-28 00:13:46 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-28 00:15:21 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-28 00:19:46 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-28 00:20:52 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-28 00:33:38 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-28 00:34:38 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-28 00:35:20 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-28 00:36:43 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-28 00:42:42 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-28 00:47:43 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-28 00:51:15 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-28 00:53:26 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-28 00:56:12 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-28 00:56:51 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-28 01:00:45 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-28 01:03:44 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-28 01:07:15 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-28 01:08:08 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-28 01:11:02 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-28 01:13:20 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-28 01:13:54 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-28 01:16:10 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-28 01:21:54 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-28 01:22:27 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-28 01:24:13 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-28 01:27:02 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-04-28 01:27:36 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
