@@ -306,3 +306,6 @@ java.net.SocketException: Connection reset
 2022-04-28 21:06:16 INFO  main Utils:info:112 - [TestNG] Running:
   C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
 
+2022-04-28 21:21:10 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+

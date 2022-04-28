@@ -13,7 +13,7 @@ public class SearchResultsPage extends BasePage{
     private WebElement searchBrandField;
     //a[@data-id='HP']
     @FindBy(xpath = "//ul[@class='checkbox-filter'][2]//li//a")
-    private List<WebElement> hpCheckBox;
+    private List<WebElement> listCheckBox;
 
     @FindBy(xpath = "//select[@_ngcontent-rz-client-c184]")
     private WebElement filterDropDown;
@@ -38,10 +38,10 @@ public class SearchResultsPage extends BasePage{
     }
     public WebElement getSearchBrandField() { return searchBrandField;}
 
-    public WebElement getHpCheckBox() { return hpCheckBox.get(0);}
-    public boolean isHpCheckBoxVisible() { return hpCheckBox.get(0).isDisplayed(); }
-    public boolean isHpCheckBoxEnabled() { return hpCheckBox.get(0).isEnabled(); }
-    public void hpCheckBoxClick() { hpCheckBox.get(0).click(); }
+    public WebElement getListCheckBox() { return listCheckBox.get(0);}
+    public boolean isListCheckBoxVisible() { return listCheckBox.get(0).isDisplayed(); }
+    public boolean isListCheckBoxEnabled() { return listCheckBox.get(0).isEnabled(); }
+    public void clickListCheckBox() { listCheckBox.get(0).click(); }
 
     public WebElement getFilterDropDown() {return filterDropDown;}
     public void clickFilterDropDown() { filterDropDown.click();}

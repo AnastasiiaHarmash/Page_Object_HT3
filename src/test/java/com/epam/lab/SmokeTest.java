@@ -12,10 +12,7 @@ import org.xml.sax.SAXException;
 
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.IOException;
-import java.sql.DataTruncation;
 import java.util.logging.Logger;
-
-import static com.google.common.primitives.UnsignedBytes.toInt;
 
 
 public class SmokeTest {
@@ -69,26 +66,21 @@ public class SmokeTest {
     public void smokeTest(String product, String brand, String sum) throws InterruptedException {
         HomePageRozetka homePageRozetka = new HomePageRozetka(driver);
         homePageRozetka.waitForPageLoadComplete(DEFAULT_TIMEOUT);
-
         homePageRozetka.enterTextToSearchField(product);
-
         homePageRozetka.clickSearchButton();
-
         SearchResultsPage searchResultsPage = new SearchResultsPage(driver);
         searchResultsPage.waitForPageLoadComplete(DEFAULT_TIMEOUT);
         searchResultsPage.waitVisibilityOfElement(DEFAULT_TIMEOUT, searchResultsPage.getSearchBrandField());
         Assert.assertTrue(searchResultsPage.isSearchBrandFieldVisible());
-
         searchResultsPage.enterTextToSearchBrandField(brand);
 
         //заглушка
         Thread.sleep(4000);
 
-        searchResultsPage.waitVisibilityOfElement(DEFAULT_TIMEOUT, searchResultsPage.getHpCheckBox());
-        Assert.assertTrue(searchResultsPage.isHpCheckBoxVisible());
-        Assert.assertTrue(searchResultsPage.isHpCheckBoxEnabled());
-
-        searchResultsPage.hpCheckBoxClick();
+        searchResultsPage.waitVisibilityOfElement(DEFAULT_TIMEOUT, searchResultsPage.getListCheckBox());
+        Assert.assertTrue(searchResultsPage.isListCheckBoxVisible());
+        Assert.assertTrue(searchResultsPage.isListCheckBoxEnabled());
+        searchResultsPage.clickListCheckBox();
         searchResultsPage.waitVisibilityOfElement(DEFAULT_TIMEOUT, searchResultsPage.getFilterDropDown());
         searchResultsPage.clickFilterDropDown();
         searchResultsPage.clickFromExpensiveToCheap();
@@ -100,7 +92,6 @@ public class SmokeTest {
         searchResultsPage.clickOnCartButton();
         searchResultsPage.waitVisibilityOfElement(DEFAULT_TIMEOUT, searchResultsPage.getPrice());
         Assert.assertTrue(searchResultsPage.isPriceVisible());
-
         Assert.assertTrue(Integer.parseInt(sum) < searchResultsPage.getTextFromPrice());
     }
 }
