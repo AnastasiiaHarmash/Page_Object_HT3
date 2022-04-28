@@ -11,9 +11,9 @@ public class SearchResultsPage extends BasePage{
 
     @FindBy(xpath = "//div[@data-filter-name='producer']//input[@name='searchline']")
     private WebElement searchBrandField;
-
-    @FindBy(xpath = "//a[@data-id='HP']")
-    private WebElement hpCheckBox;
+    //a[@data-id='HP']
+    @FindBy(xpath = "//ul[@class='checkbox-filter'][2]//li//a")
+    private List<WebElement> hpCheckBox;
 
     @FindBy(xpath = "//select[@_ngcontent-rz-client-c184]")
     private WebElement filterDropDown;
@@ -36,16 +36,18 @@ public class SearchResultsPage extends BasePage{
         searchBrandField.sendKeys(searchText);
         searchBrandField.sendKeys(Keys.ENTER);
     }
+    public WebElement getSearchBrandField() { return searchBrandField;}
 
-    public WebElement getHpCheckBox() { return hpCheckBox;}
-    public boolean isHpCheckBoxVisible() { return hpCheckBox.isDisplayed(); }
-    public boolean isHpCheckBoxEnabled() { return hpCheckBox.isEnabled(); }
-    public void hpCheckBoxClick() { hpCheckBox.click(); }
+    public WebElement getHpCheckBox() { return hpCheckBox.get(0);}
+    public boolean isHpCheckBoxVisible() { return hpCheckBox.get(0).isDisplayed(); }
+    public boolean isHpCheckBoxEnabled() { return hpCheckBox.get(0).isEnabled(); }
+    public void hpCheckBoxClick() { hpCheckBox.get(0).click(); }
 
     public WebElement getFilterDropDown() {return filterDropDown;}
     public void clickFilterDropDown() { filterDropDown.click();}
 
-    public void clickFromExpensiveToCheap() { fromExpensiveToCheap.get(2).click();}
+    public void clickFromExpensiveToCheap() { fromExpensiveToCheap.get(2).click(); }
+    public WebElement isCartIconVisible() { return listOfCartIcons.get(0);}
     public void clickListOfCartIcons() { listOfCartIcons.get(0).click(); }
 
     public void clickOnCartButton() {cartButton.click();}

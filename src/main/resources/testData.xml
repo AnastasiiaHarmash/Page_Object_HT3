@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<company>
+    <name>Rozetka</name>
+			<filterRozetkas>
+			    <filterRozetka product="laptop" brand="HP" sum="50000"/>
+			    <filterRozetka product="laptop" brand="ASUS" sum="70000"/>
+			</filterRozetkas>
+</company>
