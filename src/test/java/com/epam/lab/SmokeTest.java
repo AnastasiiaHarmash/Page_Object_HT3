@@ -52,43 +52,49 @@ public class SmokeTest {
         driver.close();
     }
 
-    /*@DataProvider
-    public Object [][] testData() {
-        return new Object[][] {{"laptop", "HP", "50000"}};
-    }*/
+    @DataProvider
+    public Object [][] simpleData() {
+        return new Object[][] {{"someProduct", "someBrand", "someSum"}};
+    }
 
     @DataProvider
     public Object [][] testData() {
+        logger.info("Running dataProvider testData");
         return xmlToObject.testDataMassive();
     }
 
     @Test(dataProvider = "testData", invocationCount = 1)
     public void smokeTest(String product, String brand, String sum) throws InterruptedException {
+        logger.info("smokeTest is running");
         HomePageRozetka homePageRozetka = new HomePageRozetka(driver);
         homePageRozetka.waitForPageLoadComplete(DEFAULT_TIMEOUT);
+        logger.info("Enter text to text field");
         homePageRozetka.enterTextToSearchField(product);
         homePageRozetka.clickSearchButton();
         SearchResultsPage searchResultsPage = new SearchResultsPage(driver);
         searchResultsPage.waitForPageLoadComplete(DEFAULT_TIMEOUT);
         searchResultsPage.waitVisibilityOfElement(DEFAULT_TIMEOUT, searchResultsPage.getSearchBrandField());
         Assert.assertTrue(searchResultsPage.isSearchBrandFieldVisible());
+        logger.info("Enter brand to search field");
         searchResultsPage.enterTextToSearchBrandField(brand);
-
-        //заглушка
+        //redneck code
         Thread.sleep(4000);
-
         searchResultsPage.waitVisibilityOfElement(DEFAULT_TIMEOUT, searchResultsPage.getListCheckBox());
         Assert.assertTrue(searchResultsPage.isListCheckBoxVisible());
         Assert.assertTrue(searchResultsPage.isListCheckBoxEnabled());
+        logger.info("Click check box");
         searchResultsPage.clickListCheckBox();
         searchResultsPage.waitVisibilityOfElement(DEFAULT_TIMEOUT, searchResultsPage.getFilterDropDown());
+        logger.info("Click filter dropdown");
         searchResultsPage.clickFilterDropDown();
         searchResultsPage.clickFromExpensiveToCheap();
         searchResultsPage.waitForPageLoadComplete(DEFAULT_TIMEOUT);
         searchResultsPage.waitVisibilityOfElement(DEFAULT_TIMEOUT, searchResultsPage.isCartIconVisible());
+        logger.info("Click add to cart");
         searchResultsPage.clickListOfCartIcons();
         searchResultsPage.waitForPageLoadComplete(DEFAULT_TIMEOUT);
         searchResultsPage.waitVisibilityOfElement(DEFAULT_TIMEOUT, searchResultsPage.getCartButton());
+        logger.info("Click on cart button");
         searchResultsPage.clickOnCartButton();
         searchResultsPage.waitVisibilityOfElement(DEFAULT_TIMEOUT, searchResultsPage.getPrice());
         Assert.assertTrue(searchResultsPage.isPriceVisible());

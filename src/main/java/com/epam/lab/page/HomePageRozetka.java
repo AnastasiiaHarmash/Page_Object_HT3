@@ -4,8 +4,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-
-
 public class HomePageRozetka extends BasePage{
 
     @FindBy(xpath = "//input[@class='search-form__input ng-untouched ng-pristine ng-valid']")

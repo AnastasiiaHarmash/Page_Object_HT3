@@ -21,7 +21,6 @@ public class XMLToObject {
         currentIndexOfArray = 0;
         SAXParserFactory factory = SAXParserFactory.newInstance();
         SAXParser parser = factory.newSAXParser();
-
         XMLHandler handler = new XMLHandler();
         parser.parse(new File("src/main/resources/testData.xml"), handler);
     }
