@@ -63,7 +63,7 @@ public class SmokeTest {
         return xmlToObject.testDataMassive();
     }
 
-    @Test(dataProvider = "testData", invocationCount = 1)
+    @Test(dataProvider = "testData"/*, invocationCount = 5, threadPoolSize = 5*/)
     public void smokeTest(String product, String brand, String sum) throws InterruptedException {
         logger.info("smokeTest is running");
         HomePageRozetka homePageRozetka = new HomePageRozetka(driver);
@@ -89,7 +89,7 @@ public class SmokeTest {
         searchResultsPage.clickFilterDropDown();
         searchResultsPage.clickFromExpensiveToCheap();
         searchResultsPage.waitForPageLoadComplete(DEFAULT_TIMEOUT);
-        searchResultsPage.waitVisibilityOfElement(DEFAULT_TIMEOUT, searchResultsPage.isCartIconVisible());
+        //searchResultsPage.waitVisibilityOfElement(DEFAULT_TIMEOUT, searchResultsPage.isCartIconVisible());
         logger.info("Click add to cart");
         searchResultsPage.clickListOfCartIcons();
         searchResultsPage.waitForPageLoadComplete(DEFAULT_TIMEOUT);

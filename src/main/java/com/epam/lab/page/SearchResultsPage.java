@@ -15,10 +15,10 @@ public class SearchResultsPage extends BasePage{
     @FindBy(xpath = "//ul[@class='checkbox-filter'][2]//li//a")
     private List<WebElement> listCheckBox;
 
-    @FindBy(xpath = "//select[@_ngcontent-rz-client-c184]")
+    @FindBy(xpath = "//select[@class='select-css ng-untouched ng-pristine ng-valid ng-star-inserted']")
     private WebElement filterDropDown;
 
-    @FindBy(xpath = "//select[@_ngcontent-rz-client-c184]//option")
+    @FindBy(xpath = "//select[@class='select-css ng-untouched ng-pristine ng-valid ng-star-inserted']//option")
     private List<WebElement> fromExpensiveToCheap;
 
     @FindBy(xpath = "//button[@class='buy-button goods-tile__buy-button ng-star-inserted']")

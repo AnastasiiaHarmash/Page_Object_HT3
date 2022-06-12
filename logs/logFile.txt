@@ -331,3 +331,176 @@ java.net.SocketException: Connection reset
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-05-01 01:10:10 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-05-01 01:10:25 WARN  AsyncHttpClient-1-8 WebSocketHandler:handleException:142 - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-05-01 01:11:22 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-05-01 01:12:03 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-05-01 01:12:56 WARN  AsyncHttpClient-1-7 WebSocketHandler:handleException:142 - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-05-01 01:14:17 WARN  AsyncHttpClient-1-8 WebSocketHandler:handleException:142 - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-05-01 01:14:42 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-05-01 01:15:06 WARN  AsyncHttpClient-1-7 WebSocketHandler:handleException:142 - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-05-01 01:28:13 INFO  main Utils:info:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
+2022-05-01 01:28:13 INFO  main Utils:info:112 - [Utils] MethodGroupsHelper.sortMethods() took 8 ms.
+2022-05-01 01:28:13 INFO  main Utils:info:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-05-01 01:28:13 INFO  main Utils:info:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-05-01 01:28:13 INFO  main Utils:info:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+2022-05-01 01:28:13 INFO  main Utils:info:112 - [Utils] MethodGroupsHelper.sortMethods() took 14 ms.
+2022-05-01 01:28:13 INFO  main Utils:info:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-05-01 01:28:13 INFO  main Utils:info:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-05-01 01:28:13 INFO  main Utils:info:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-05-01 01:28:13 INFO  main Utils:info:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-05-01 01:28:13 INFO  main Utils:info:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-05-01 01:28:13 INFO  main Utils:info:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-05-01 01:28:13 INFO  main Utils:info:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-05-01 01:28:13 INFO  main Utils:info:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-05-01 01:28:13 INFO  main Utils:info:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-05-01 01:28:13 INFO  main Utils:info:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-05-01 01:28:13 INFO  main Utils:info:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-05-01 01:28:13 INFO  main Utils:info:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2022-05-01 01:28:13 INFO  main Utils:info:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-05-01 01:28:13 INFO  main Utils:info:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2022-05-01 01:28:13 INFO  main Utils:info:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-05-01 01:28:13 INFO  main Utils:info:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-05-01 01:28:13 INFO  main Utils:info:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
+2022-05-01 01:28:13 INFO  main Utils:info:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-05-01 01:28:13 INFO  main Utils:info:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-05-01 01:28:13 INFO  main Utils:info:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-05-01 01:28:13 INFO  main Utils:info:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-05-01 01:28:13 INFO  main Utils:info:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-05-01 01:28:13 INFO  main Utils:info:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-05-01 01:28:13 INFO  main Utils:info:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-05-01 01:28:13 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\Desktop\epam_lab_HT\Page_Object_HT3\src\test\resources\testng.xml
+
+2022-05-01 01:28:13 INFO  main Utils:info:112 - [ThreadUtil] Starting executor timeOut:2147483647ms workers:1 threadPoolSize:3
+2022-05-01 01:28:13 INFO  TestNG-tests-1 Utils:info:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 10 ms.
+2022-05-01 01:28:13 INFO  TestNG-tests-1 Utils:info:112 - [ThreadUtil] Starting executor timeOut:0ms workers:5 threadPoolSize:5
+2022-05-01 01:28:38 INFO  main Utils:info:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@1aa7ecca: 0 ms
+2022-06-12 21:03:52 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-06-12 21:08:30 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-06-12 21:08:55 WARN  AsyncHttpClient-1-4 WebSocketHandler:handleException:142 - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-06-12 21:11:34 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-06-12 21:12:01 WARN  AsyncHttpClient-1-4 WebSocketHandler:handleException:142 - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-06-12 21:14:02 INFO  main Utils:info:112 - [TestNG] Running:
+  C:\Users\anastasiia\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-06-12 21:14:30 WARN  AsyncHttpClient-1-4 WebSocketHandler:handleException:142 - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)

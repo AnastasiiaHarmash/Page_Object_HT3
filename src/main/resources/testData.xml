@@ -2,7 +2,10 @@
 <company>
     <name>Rozetka</name>
 			<filterRozetkas>
-			    <filterRozetka product="laptop" brand="HP" sum="50000"/>
-			    <filterRozetka product="laptop" brand="ASUS" sum="70000"/>
+			    <filterRozetka product="ноутбук" brand="HP" sum="50000"/>
+				<filterRozetka product="телефон" brand="samsung" sum="41000"/>
+				<filterRozetka product="навушники" brand="razer" sum="9500"/>
+				<filterRozetka product="перфоратор" brand="bosch" sum="28000"/>
+				<filterRozetka product="пилосос" brand="Philips" sum="26300"/>
 			</filterRozetkas>
 </company>
