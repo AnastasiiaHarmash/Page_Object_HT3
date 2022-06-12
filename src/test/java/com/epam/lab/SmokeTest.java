@@ -89,7 +89,8 @@ public class SmokeTest {
         searchResultsPage.clickFilterDropDown();
         searchResultsPage.clickFromExpensiveToCheap();
         searchResultsPage.waitForPageLoadComplete(DEFAULT_TIMEOUT);
-        //searchResultsPage.waitVisibilityOfElement(DEFAULT_TIMEOUT, searchResultsPage.isCartIconVisible());
+        Thread.sleep(3000);
+        searchResultsPage.waitVisibilityOfElement(DEFAULT_TIMEOUT, searchResultsPage.isCartIconVisible());
         logger.info("Click add to cart");
         searchResultsPage.clickListOfCartIcons();
         searchResultsPage.waitForPageLoadComplete(DEFAULT_TIMEOUT);
