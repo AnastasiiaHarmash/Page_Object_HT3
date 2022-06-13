@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Smoke Test Rozetka"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="20.016">
+    <properties></properties>
+
+
+
+            <testcase
+                name="smokeTest"
+                time="20.016"
+                classname="com.epam.lab.SmokeTest">
+            </testcase>
+</testsuite>
