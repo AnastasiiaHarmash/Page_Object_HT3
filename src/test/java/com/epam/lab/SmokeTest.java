@@ -4,21 +4,22 @@ import com.epam.lab.page.HomePageRozetka;
 import com.epam.lab.page.SearchResultsPage;
 import com.epam.lab.util.PropertiesReader;
 import com.epam.lab.util.XMLToObject;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
 import org.xml.sax.SAXException;
-
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.IOException;
-import java.util.logging.Logger;
 
 
 public class SmokeTest {
 
     private WebDriver driver;
-    private static final Logger logger = Logger.getLogger(SmokeTest.class.getName());
+    private static final Logger logger = LogManager.getLogger(SmokeTest.class);
     private static final long DEFAULT_TIMEOUT = 60;
     private static XMLToObject xmlToObject;
 
@@ -63,7 +64,7 @@ public class SmokeTest {
         return xmlToObject.testDataMassive();
     }
 
-    @Test(dataProvider = "testData"/*, invocationCount = 5, threadPoolSize = 5*/)
+    @Test(dataProvider = "testData")
     public void smokeTest(String product, String brand, String sum) throws InterruptedException {
         logger.info("smokeTest is running");
         HomePageRozetka homePageRozetka = new HomePageRozetka(driver);
