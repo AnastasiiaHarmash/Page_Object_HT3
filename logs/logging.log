@@ -240,3 +240,94 @@ java.net.SocketException: Connection reset
 2022-06-14 00:06:39 INFO  TestListener:27 - I am in com.epam.lab.FailureTest method failureTest failed
 2022-06-14 00:06:39 INFO  TestListener:43 - I am in onFinish method Failure Test on Tue Jun 14 00:06:39 EEST 2022
 2022-06-14 00:06:39 INFO  TestListener:44 - ------------------------------------------------------------------------------------------
+2022-06-15 22:55:38 INFO  TestListener:39 - I am in onStart method Smoke Test Rozetka on Wed Jun 15 22:55:38 EEST 2022
+2022-06-15 22:55:38 INFO  SmokeTest:36 - BeforeTest in progress.
+2022-06-15 22:55:38 INFO  SmokeTest:63 - Running dataProvider testData
+2022-06-15 22:55:38 INFO  SmokeTest:43 - BeforeMethod in progress.
+2022-06-15 22:55:52 INFO  TestListener:19 - I am in com.epam.lab.SmokeTest method smokeTest start
+2022-06-15 22:55:52 INFO  SmokeTest:69 - smokeTest is running
+2022-06-15 22:55:52 INFO  SmokeTest:72 - Enter text to text field
+2022-06-15 22:55:58 INFO  SmokeTest:79 - Enter brand to search field
+2022-06-15 22:56:03 INFO  SmokeTest:86 - Click check box
+2022-06-15 22:56:06 INFO  SmokeTest:89 - Click filter dropdown
+2022-06-15 22:56:11 INFO  SmokeTest:95 - Click add to cart
+2022-06-15 22:56:12 INFO  SmokeTest:99 - Click on cart button
+2022-06-15 22:56:13 INFO  TestListener:23 - I am in com.epam.lab.SmokeTest method smokeTest succeed
+2022-06-15 22:56:13 INFO  SmokeTest:52 - AfterMethod, driver close.
+2022-06-15 22:56:17 INFO  TestListener:43 - I am in onFinish method Smoke Test Rozetka on Wed Jun 15 22:56:17 EEST 2022
+2022-06-15 22:56:17 INFO  TestListener:44 - ------------------------------------------------------------------------------------------
+2022-06-15 22:56:18 INFO  TestListener:39 - I am in onStart method Failure Test on Wed Jun 15 22:56:18 EEST 2022
+2022-06-15 22:56:18 INFO  TestListener:19 - I am in com.epam.lab.FailureTest method failureTest start
+2022-06-15 22:56:18 INFO  FailureTest:14 - Run failure test.
+2022-06-15 22:56:18 INFO  TestListener:27 - I am in com.epam.lab.FailureTest method failureTest failed
+2022-06-15 22:56:18 INFO  TestListener:43 - I am in onFinish method Failure Test on Wed Jun 15 22:56:18 EEST 2022
+2022-06-15 22:56:18 INFO  TestListener:44 - ------------------------------------------------------------------------------------------
+2022-06-15 22:59:03 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\anastasiia\Desktop\epam_lab_HT\Page_Object_HT3\src\test\resources\testng.xml
+
+2022-06-15 22:59:03 INFO  TestListener:39 - I am in onStart method Smoke Test Rozetka on Wed Jun 15 22:59:03 EEST 2022
+2022-06-15 22:59:03 INFO  SmokeTest:36 - BeforeTest in progress.
+2022-06-15 22:59:03 INFO  SmokeTest:63 - Running dataProvider testData
+2022-06-15 22:59:03 INFO  SmokeTest:43 - BeforeMethod in progress.
+2022-06-15 22:59:10 INFO  TestListener:19 - I am in com.epam.lab.SmokeTest method smokeTest start
+2022-06-15 22:59:10 INFO  SmokeTest:69 - smokeTest is running
+2022-06-15 22:59:11 INFO  SmokeTest:72 - Enter text to text field
+2022-06-15 22:59:18 INFO  SmokeTest:79 - Enter brand to search field
+2022-06-15 22:59:22 INFO  SmokeTest:86 - Click check box
+2022-06-15 22:59:27 INFO  SmokeTest:89 - Click filter dropdown
+2022-06-15 22:59:32 INFO  SmokeTest:95 - Click add to cart
+2022-06-15 22:59:33 INFO  SmokeTest:99 - Click on cart button
+2022-06-15 22:59:34 INFO  TestListener:23 - I am in com.epam.lab.SmokeTest method smokeTest succeed
+2022-06-15 22:59:34 INFO  SmokeTest:52 - AfterMethod, driver close.
+2022-06-15 22:59:34 WARN  WebSocketHandler:142 - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-06-15 22:59:34 INFO  TestListener:43 - I am in onFinish method Smoke Test Rozetka on Wed Jun 15 22:59:34 EEST 2022
+2022-06-15 22:59:34 INFO  TestListener:44 - ------------------------------------------------------------------------------------------
+2022-06-15 23:04:42 INFO  TestListener:39 - I am in onStart method Smoke Test Rozetka on Wed Jun 15 23:04:42 EEST 2022
+2022-06-15 23:04:42 INFO  SmokeTest:36 - BeforeTest in progress.
+2022-06-15 23:04:42 INFO  SmokeTest:63 - Running dataProvider testData
+2022-06-15 23:04:42 INFO  SmokeTest:43 - BeforeMethod in progress.
+2022-06-15 23:04:54 INFO  TestListener:19 - I am in com.epam.lab.SmokeTest method smokeTest start
+2022-06-15 23:04:54 INFO  SmokeTest:69 - smokeTest is running
+2022-06-15 23:04:55 INFO  SmokeTest:72 - Enter text to text field
+2022-06-15 23:05:01 INFO  SmokeTest:79 - Enter brand to search field
+2022-06-15 23:05:06 INFO  SmokeTest:86 - Click check box
+2022-06-15 23:05:09 INFO  SmokeTest:89 - Click filter dropdown
+2022-06-15 23:05:13 INFO  SmokeTest:95 - Click add to cart
+2022-06-15 23:05:14 INFO  SmokeTest:99 - Click on cart button
+2022-06-15 23:05:15 INFO  TestListener:23 - I am in com.epam.lab.SmokeTest method smokeTest succeed
+2022-06-15 23:05:15 INFO  SmokeTest:52 - AfterMethod, driver close.
+2022-06-15 23:05:15 INFO  TestListener:43 - I am in onFinish method Smoke Test Rozetka on Wed Jun 15 23:05:15 EEST 2022
+2022-06-15 23:05:15 INFO  TestListener:44 - ------------------------------------------------------------------------------------------
+2022-06-15 23:05:16 ERROR Main:165 - C:\Users\anastasiia\Desktop\epam_lab_HT\Page_Object_HT3\target\surefire-reports\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: C:\Users\anastasiia\Desktop\epam_lab_HT\Page_Object_HT3\target\surefire-reports\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:478)
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:220)
+	at java.base/java.nio.file.Files.copy(Files.java:3067)
+	at org.testng.reporters.jq.Main.generateReport(Main.java:93)
+	at org.testng.TestNG.generateReports(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1072)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)

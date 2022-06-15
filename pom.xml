@@ -117,7 +117,7 @@
                         </property>
                         <property>
                             <name>listener</name>
-                            <value>org.uncommons.reportng.HTMLReporter,com.epam.lab.util.TestListener</value>
+                            <value>org.uncommons.reportng.HTMLReporter, com.epam.lab.util.TestListener</value>
                         </property>
                     </properties>
                 </configuration>
