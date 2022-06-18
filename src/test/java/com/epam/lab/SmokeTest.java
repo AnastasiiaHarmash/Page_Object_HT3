@@ -5,6 +5,9 @@ import com.epam.lab.page.SearchResultsPage;
 import com.epam.lab.util.PropertiesReader;
 import com.epam.lab.util.XMLToObject;
 
+import io.qameta.allure.*;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
@@ -15,10 +18,12 @@ import org.apache.log4j.Logger;
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.IOException;
 
-
+@Listeners({TestListener.class})
+@Epic("Regression Tests")
+@Feature("Add to cart test")
 public class SmokeTest {
 
-    private WebDriver driver;
+    protected static WebDriver driver;
     private static final Logger logger = LogManager.getLogger(SmokeTest.class);
     private static final long DEFAULT_TIMEOUT = 60;
     private static XMLToObject xmlToObject;
@@ -64,7 +69,19 @@ public class SmokeTest {
         return xmlToObject.testDataMassive();
     }
 
-    @Test(dataProvider = "testData")
+    public static void saveScreenshotPNG () {
+        Allure.getLifecycle().addAttachment(
+                "screenshot", "image/png", "png",
+                ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)
+        );
+        logger.info("Take screenshot in the end of the test.");
+    }
+
+    @Test(dataProvider = "testData", description = "Adding an item to the cart and checking the price of the item")
+    @Severity(SeverityLevel.NORMAL)
+    @Description("Test Description: Adding an item to the cart and checking that the price of the item is less than the control value")
+    @Story("Adding an item to the cart")
+    @Step("Smoke Test add to cart")
     public void smokeTest(String product, String brand, String sum) throws InterruptedException {
         logger.info("smokeTest is running");
         HomePageRozetka homePageRozetka = new HomePageRozetka(driver);
@@ -101,5 +118,6 @@ public class SmokeTest {
         searchResultsPage.waitVisibilityOfElement(DEFAULT_TIMEOUT, searchResultsPage.getPrice());
         Assert.assertTrue(searchResultsPage.isPriceVisible());
         Assert.assertTrue(Integer.parseInt(sum) < searchResultsPage.getTextFromPrice());
+        saveScreenshotPNG();
     }
 }

@@ -1,11 +1,18 @@
-package com.epam.lab.util;
+package com.epam.lab;
 
+import io.qameta.allure.Allure;
+import io.qameta.allure.Attachment;
+import io.qameta.allure.Step;
 import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.testng.ITestContext;
 import org.testng.ITestListener ;
 import org.testng.ITestResult;
+
+import static com.epam.lab.SmokeTest.driver;
 
 
 public class TestListener implements ITestListener {

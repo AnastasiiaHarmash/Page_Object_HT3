@@ -20,7 +20,7 @@
         </classes>
     </test>
     <listeners>
-        <listener class-name="com.epam.lab.util.TestListener"/>
+        <listener class-name="com.epam.lab.TestListener"/>
     </listeners>
 </suite>
 
